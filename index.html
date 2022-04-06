@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Product landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <img
+          id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="trumbone-logo"
+        />
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Handcrafted, home-made masterpieces</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="Enter your email address"
+      />
+      <button id="submit">GET STARTED</button>
+    </form>
+    <div id="features">
+      <h3>
+        <i
+          class="fa fa-solid fa-industry"
+          style="font-size: 25px; color: orangered"
+        ></i>
+        Premium Materials
+      </h3>
+      <p>
+        Our trombones use the shiniest brass which is sourced locally. This will
+        increase the longevity of your purchase.
+      </p>
+      <h3>
+        <i
+          class="fa fa-solid fa-truck"
+          style="font-size: 25px; color: orangered"
+        ></i>
+        Fast Shipping
+      </h3>
+      <p>
+        We make sure you recieve your trombone as soon as we have finished
+        making it. We also provide free returns if you are not satisfied.
+      </p>
+      <h3>
+        <i
+          class="fa fa-solid fa-music"
+          style="font-size: 25px; color: orangered"
+        ></i>
+        Quality Assurance
+      </h3>
+      <p>
+        For every purchase you make, we will ensure there are no damages or
+        faults and we will check and test the pitch of your instrument.
+      </p>
+    </div>
+    <div id="how-it-works">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/CTt8R2LBwjw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="pricing">
+      <div id="product-card">
+        <h4>TENOR TROMBONE</h4>
+        <h5>$600</h5>
+        <ul>
+          <li>.547" large bore</li>
+          <li>Yellow brass outer slide</li>
+          <li>Clear lacquer finish</li>
+          <li>Woodshell case</li>
+        </ul>
+        <button id="select">Select</button>
+      </div>
+      <div id="product-card">
+        <h4>BASS TROMBONE</h4>
+        <h5>$900</h5>
+        <ul>
+          <li>Single rotor system</li>
+          <li>.562" bore</li>
+          <li>Yellow brass outer slide</li>
+          <li>Woodshell case</li>
+        </ul>
+        <button id="select">Select</button>
+      </div>
+      <div id="product-card">
+        <h4>VALVE TROMBONE</h4>
+        <h5>$1200</h5>
+        <ul>
+          <li>.594" Valve section</li>
+          <li>Dual bore: .562”-.578”</li>
+          <li>Gold lacquer finish</li>
+          <li>Woodshell case</li>
+        </ul>
+        <button id="select">Select</button>
+      </div>
+    </div>
+    <footer id="footer">
+        <ul>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h6>Copyright 2016, Original Trombones</h6>
+      </footer>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

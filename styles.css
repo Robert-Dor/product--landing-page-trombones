@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: goldenrod;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+#header {
+  background-color: gold;
+  position: relative;
+  z-index: 1;
+}
+#header-img {
+  width: 240px;
+  height: auto;
+  margin-top: 15px;
+}
+#nav-bar {
+  overflow: hidden;
+  background-color: gold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul {
+  padding-bottom: 10px;
+}
+#nav-bar a {
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 10px;
+  transition: ease-in-out 0.3s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav-bar a:hover {
+  color: orangered;
+}
+#nav-bar li {
+  list-style-type: none;
+}
+#features {
+  margin: 20px auto;
+  width: 90%;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: 5px auto;
+}
+#email {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+  margin-bottom: 5px;
+}
+#submit {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+  background: gold;
+  font-weight: 800;
+  color: orangered;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+h2 {
+  margin: 140px 0px 20px;
+}
+h3,
+p {
+  margin-bottom: 10px;
+}
+#how-it-works {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+#video {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#pricing {
+  margin-bottom: 30px;
+}
+#product-card {
+  width: 200px;
+  margin: 12px auto;
+  border-radius: 5px;
+  background-color: white;
+}
+h4 {
+  padding: 5px 0px;
+  background-color: gold;
+  border-radius: 5px 5px 0px 0px;
+}
+h5 {
+  background-color: gold;
+  font-size: 24px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid orangered;
+}
+#product-card li {
+  list-style-type: none;
+  padding: 9px 0px;
+  font-weight: 600;
+}
+#select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+  background: gold;
+  font-weight: 800;
+  color: orangered;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#footer {
+  background-color: gold;
+  text-align: center;
+  padding: 20px 10px;
+}
+#footer li {
+  display: inline;
+  padding: 0px 10px;
+}
+#footer a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+#footer a:hover {
+  color: orangered;
+}
+
+/* Small devices (portrait tablets and large phones, 475px and up) */
+@media only screen and (min-width: 475px) {
+  #header-img {
+    width: 200px;
+    float: left;
+    padding: 0px 10px 0px 10px;
+  }
+  #pricing {
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+  #nav-bar ul {
+    display: flex;
+    justify-content: right;
+    padding-top: 15px;
+  }
+  h2 {
+    margin-top: 75px;
+  }
+  #features {
+    text-align: left;
+    width: 80%;
+  }
+}
+
+/* Large devices (laptops/desktops, 800px and up) */
+@media only screen and (min-width: 800px) {
+  
+  #pricing {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  #product-card {
+    margin: 15px;
+  }
+  h3 {
+    margin-top: 30px;
+  }
+}
